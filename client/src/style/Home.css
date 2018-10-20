@@ -1,0 +1,27 @@
+.home-panel-pic {
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+
+.person-wrapper {
+    margin-bottom: 2em;
+  }
+  
+.profile-pic {
+    width: 75%;
+
+   
+  }
+
+.solar-man-pic {
+    width: 100%;
+  }
+.solar-fam-pic {
+    width: 100%;
+    
+  }
+.section-title {
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
