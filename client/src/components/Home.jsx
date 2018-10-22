@@ -5,7 +5,7 @@ import FA from 'react-fontawesome';
 import '../style/Home.css';
 import Footer from './Footer';
 import ContactUs from './ContactUs';
-
+import Learn from './Learn';
 import Carousel from './CustomCarousel';
 
 class Home extends Component {
@@ -77,7 +77,7 @@ class Home extends Component {
                 </Row>
                 <h2 className="text-center section-title">Learn</h2>
 
-
+                <Learn/>
 
 
                 

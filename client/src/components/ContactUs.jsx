@@ -130,7 +130,7 @@ class ContactUs extends Component {
                     </Col>
                 </FormGroup>
                 <FormGroup>
-                    <Col smOffset={4} sm={12}>
+                    <Col smOffset={2} sm={12}>
                     <Button className="contact-submit" onClick={this.onSubmitButton}  type="submit">Submit</Button>
                   </Col>
 

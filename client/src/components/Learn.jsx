@@ -15,7 +15,7 @@ class Learn extends Component {
                 <Col xs={12} sm={6}>
                      <Image className="learn-pic" src="assets/rhode-island-purchase.png"/>
                 
-                  <p>
+                  <p className="learn-pic-text">
                     Solar panel technology has also come a long way. Solar power systems are now 
                  much more efficient and have become more affordable for residential customers. 
                  Aesthetically speaking, solar panels are also sleeker and more attractive. 

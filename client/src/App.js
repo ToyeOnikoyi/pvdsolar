@@ -6,9 +6,8 @@ import Services from './components/Services';
 import NavBar from './components/CustomNavBar';
 import ContactUs from './components/ContactUs';
 import About from './components/About';
-import Learn from './components/Learn';
 import ContactBar from './components/contactBar';
-
+import Learn from './components/Learn';
 
 class App extends Component {
   render() {
@@ -23,7 +22,7 @@ class App extends Component {
           <Route  path="/contact" component={ContactUs}/>
           <Route  path="/about" component={About}/>
           <Route  path="/learn" component={Learn}/>
-          <Learn/>
+         
 
         </div>
       </Router>
