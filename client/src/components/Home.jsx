@@ -20,7 +20,7 @@ class Home extends Component {
                 <Jumbotron> 
                     <h2>WELCOME TO RI's #1 SOLAR Company </h2>
                     <p>Get a free estimate to see how much you can save a month with this renewable energy</p>
-                    <p>Average Yearly savings in RI $367 </p>
+                    <p>Average Yearly savings in RI <span className="home-money-text">$367 </span> </p>
                     <Link to="/contact">
                     <Button bsStyle="primary">Learn More</Button>
                     </Link>
