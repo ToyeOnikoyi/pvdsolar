@@ -10,7 +10,7 @@ class CustomCarousel extends Component {
     }
     render() {
         return (
-                <Carousel>
+                <Carousel className="carousel-style" xs={12}>
                     <Carousel.Item>
                         <Image src="assets/solar-8.jpg" />
                       <Carousel.Caption>

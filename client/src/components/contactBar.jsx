@@ -13,7 +13,7 @@ class ContactBar extends Component {
         return (
             <Grid className="contactBar">
                 <Row>
-                    <Col sm={4} >
+                    <Col sm={4} xs={4} >
                         <FontAwesome
                             name='phone'
                             size='2x'
@@ -21,7 +21,7 @@ class ContactBar extends Component {
                             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
                         />
                     </Col>
-                    <Col className="contactbar-number"  sm={4} smPull={4}  >
+                    <Col className="contactbar-number"  xs={6} sm={4} xsPull={4} smPull={4}  >
                       <h4>401-537-8081</h4>
                       
                     </Col>

@@ -15,8 +15,8 @@ class Home extends Component {
     }
     render() {
         return (
-            <Grid>
-                <Carousel/>
+            <div  xs={12}>
+                <Carousel  xs={12}/>
                 <Jumbotron> 
                     <h2>WELCOME TO RI's #1 SOLAR Company </h2>
                     <p>Get a free estimate to see how much you can save a month with this renewable energy</p>
@@ -65,9 +65,7 @@ class Home extends Component {
                   </p>
                   </Col>
                   <Col xs={12} sm={6} md={6} lg={6} >
-                    <iframe title="Solar-video" width="560" height="315"
-                      src="http://www.youtube.com/embed/inPtRWtvDaM">
-                    </iframe>
+
                   </Col>
                 </Row>
 
@@ -81,7 +79,7 @@ class Home extends Component {
 
 
                 
-            </Grid>
+            </div>
  
         );
     }

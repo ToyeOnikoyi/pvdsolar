@@ -33,7 +33,7 @@ class Learn extends Component {
                             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
                          />  
                      </Col>
-                     <Col className="learn-list"  sm={6} xs={6} smPull={6}>
+                     <Col className="learn-list"  sm={6} xs={6} xsPull={6} smPull={6}>
                      <h4>Quality without Compromise</h4>
                      </Col>
                      <p>To every last nut and bolt, we will only install materials to last the test of time.</p>
@@ -47,7 +47,7 @@ class Learn extends Component {
                             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
                          />  
                      </Col>
-                     <Col className="learn-list"  sm={6} xs={6} smPull={6}>
+                     <Col className="learn-list"  sm={6} xs={6} xsPull={6}  smPull={6}>
                      <h4>Ethics in Transparency</h4>
                      </Col>
                      <p>If we plan to be around as long as your system, it is critical to be upfront about performance predictions and return on investment estimates.</p>       
@@ -61,7 +61,7 @@ class Learn extends Component {
                             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
                          />  
                      </Col>
-                     <Col className="learn-list"  sm={6} xs={6} smPull={6}>
+                     <Col className="learn-list"  sm={6} xs={6} xsPull={6}  smPull={6}>
                      <h4>A Holistic Approach</h4>
                      </Col>
                      <p>We provide the knowledge and guidance based on total energy management of the property so you can make the best decision for you.</p>
