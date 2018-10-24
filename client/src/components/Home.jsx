@@ -65,7 +65,7 @@ class Home extends Component {
                   </p>
                   </Col>
                   <Col xs={12} sm={6} md={6} lg={6} >
-
+                    <iframe src="https://www.youtube.com/embed/j2pNv2DE64Q" id="video" width="420" height="300" frameborder="0"></iframe>
                   </Col>
                 </Row>
 
@@ -76,6 +76,8 @@ class Home extends Component {
                 <h2 className="text-center section-title">Learn</h2>
 
                 <Learn/>
+
+                <p className="home-copywrite text-center">EST. 2018 by PVD Solar</p>
 
 
                 

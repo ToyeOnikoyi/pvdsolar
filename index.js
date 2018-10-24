@@ -12,25 +12,25 @@ app.post('/api/form',(req,res) => {
     console.log(req.body.email)
 
     let htmlEmail = `
-        <h2>${req.body.first_name}</h2>
-        <h2>${req.body.last_name}</h2>
-        <h2>${req.body.email}</h2>
-        <h2>${req.body.phone}</h2>
-        <p>${req.body.message}</p>
+        <h2>First Name: ${req.body.first_name}</h2>
+        <h2>Last Name: ${req.body.last_name}</h2>
+        <h2>email: ${req.body.email}</h2>
+        <h2>number: ${req.body.phone}</h2>
+        <p>message from customer: ${req.body.message}</p>
     `
 
     let transporter = nodemailer.createTransport({
         service:'Gmail',
         auth:{
-            user: 'toyeonikoyi@gmail.com',
-            pass: 'Securepay!!2020'
+            user: 'Resolutelyrich@gmail.com',
+            pass: 'Richie0602'
         }
 
     })
 
     let mailOptions = {
         from: req.body.email,   // senders address from contact form
-        to: "toyeonikoyi@gmail.com",
+        to: "Resolutelyrich@gmail.com",
         subject: "New Message From Solar Customer",
         text: req.body.message,   // senders message from contact form
         html: htmlEmail //html body

@@ -51,6 +51,14 @@ class ContactUs extends Component {
             console.log('submit error: '+error.response.data)
         })
 
+        this.setState({
+            first_name: '',
+            last_name: '',
+            email: '',
+            phone: '',
+            message: ''
+        })
+
     }
 
 
